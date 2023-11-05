@@ -9,7 +9,8 @@
     "test": "ng test",
     "prettier-check": "prettier . --check",
     "lint-format": "prettylint .",
-    "lint-code": "ng lint --max-warnings 0"
+    "lint-code": "ng lint --max-warnings 0",
+    "lint-style": "stylelint **/*.{css,scss,sass,less}"
   },
   "private": true,
   "dependencies": {
@@ -47,6 +48,8 @@
     "karma-jasmine-html-reporter": "~2.1.0",
     "prettier": "3.0.3",
     "prettylint": "^2.0.0",
+    "stylelint": "^15.11.0",
+    "stylelint-config-standard-scss": "^11.1.0",
     "typescript": "~5.1.3"
   }
 }
