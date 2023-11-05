@@ -16,7 +16,10 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 ## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Angular 16 added experimental support for Jest but many features like coverage report or running single tests from IntelliJ did not work at the time.
+So [jest-preset-angular](https://github.com/thymikee/jest-preset-angular) is used to run the tests.
+
+Run `jest` to execute the unit tests via [Jest](https://jestjs.io/docs/testing-frameworks).
 
 ## Running end-to-end tests
 
