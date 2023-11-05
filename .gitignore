@@ -1,5 +1,7 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
+#! Other ignore files have a copy of this - dont forget to update the other ignore files as well
+
 # Compiled output
 /dist
 /tmp

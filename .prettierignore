@@ -1,6 +1,15 @@
 # Ignore artifacts:
 coverage
 
+# ignores for pre-commit lint-staged task
+.editorconfig
+.gitignore
+.husky/pre-commit
+.prettierignore
+.stylelintignore
+src/assets/.gitkeep
+src/favicon.ico
+
 # copied from .gitignore:
 # Compiled output
 /dist
