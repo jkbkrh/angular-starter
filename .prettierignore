@@ -1,6 +1,3 @@
-# Ignore artifacts:
-coverage
-
 # ignores for pre-commit lint-staged task
 .editorconfig
 .gitignore
@@ -51,3 +48,7 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+
+# Playwright
+/test-outputs
+/playwright/.cache/
