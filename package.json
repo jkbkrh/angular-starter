@@ -6,7 +6,7 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test-unit": "jest --coverage",
+    "test-unit": "jest",
     "test-e2e": "playwright test",
     "test": "run-s test-unit test-e2e",
     "prettier-check": "prettier . --check",

@@ -2,7 +2,6 @@
   "preset": "jest-preset-angular",
   "setupFilesAfterEnv": ["<rootDir>/setup-jest.ts"],
   "testPathIgnorePatterns": ["<rootDir>/test-e2e"],
-  "coverageDirectory": "<rootDir>/test-outputs/jest/coverage",
   "reporters": [
     "default",
     [
@@ -11,5 +10,15 @@
         "outputPath": "<rootDir>/test-outputs/jest/html-report/index.html"
       }
     ]
-  ]
+  ],
+  "collectCoverage": true,
+  "collectCoverageFrom": ["<rootDir>/src/app/**/*"],
+  "coverageDirectory": "<rootDir>/test-outputs/jest/coverage",
+  "coverageThreshold": {
+    "global": {
+      "branches": 80,
+      "functions": 80,
+      "lines": 80
+    }
+  }
 }
