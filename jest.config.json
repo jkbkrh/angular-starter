@@ -2,5 +2,14 @@
   "preset": "jest-preset-angular",
   "setupFilesAfterEnv": ["<rootDir>/setup-jest.ts"],
   "testPathIgnorePatterns": ["<rootDir>/test-e2e"],
-  "coverageDirectory": "<rootDir>/test-outputs/jest/coverage"
+  "coverageDirectory": "<rootDir>/test-outputs/jest/coverage",
+  "reporters": [
+    "default",
+    [
+      "jest-html-reporter",
+      {
+        "outputPath": "<rootDir>/test-outputs/jest/html-report/index.html"
+      }
+    ]
+  ]
 }
