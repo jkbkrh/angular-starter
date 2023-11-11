@@ -1,12 +1,12 @@
 import { test, expect } from '@playwright/test';
 
 test('has title', async ({ page }) => {
-  await page.goto('http://localhost:4200/');
+  await page.goto('/');
   await expect(page).toHaveTitle('angular-starter');
 });
 
 test('step buttons change terminal text', async ({ page }) => {
-  await page.goto('http://localhost:4200/');
+  await page.goto('/');
 
   const terminalElement = page.locator('css=.terminal').locator('pre');
   let terminalText = await terminalElement.innerText();
