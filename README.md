@@ -1,6 +1,6 @@
 # angular-starter
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.9. Search angular-starter in the project and replace with the new name.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli). Search angular-starter in the project and replace with the new name.
 
 ## Development server
 
